@@ -97,6 +97,7 @@ a {
 }
 
 .sidebar-footer {
+    word-break: break-all;
     background-color: #D08C60;
 }
 
