@@ -49,6 +49,10 @@ a {
     background-color: #9B9B7A;
 }
 
+.left-sidebar h3 {
+    margin-left: 1em;
+}
+
 .middle {
     display: flex;
     flex-direction: column;
@@ -87,6 +91,10 @@ a {
     flex-direction: column;
 }
 
+.right-sidebar h3 {
+    margin-left: 1em;
+}
+
 .sidebar {
     padding: 0 1em 0 0;
     height: 100%;
@@ -97,8 +105,12 @@ a {
 }
 
 .sidebar-footer {
-    word-break: break-all;
+    word-break: break-word;
     background-color: #D08C60;
+}
+
+.sidebar-footer i {
+    word-break: break-all;
 }
 
 .footer {
