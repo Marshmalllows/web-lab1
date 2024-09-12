@@ -60,10 +60,11 @@ a {
 }
 
 .sub-header {
-    height: 50px;
+    min-height: 50px;
     padding: 0;
     align-content: center;
     text-align: center;
+    word-break: break-word;
     background-color: #D9AE94;
 }
 
